@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PySpark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Data Directories (keep structure, ignore data)
+mediated_data/*
+!mediated_data/.gitkeep
+rated_data/*
+!rated_data/.gitkeep
+invoice/*
+!invoice/.gitkeep
+report/*.csv
+*.parquet
+*.snappy.parquet
+*.crc
+_SUCCESS
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Kafka
+kafka-logs/
+
+# Database
+*.db
+*.sqlite3
+
+# Environment Variables
+.env
+.env.local
+
+# Credentials
+config/credentials.json
+config/secrets.yaml
+
+# Old/Backup Files
+conf/
+*.bak
+*.tmp
