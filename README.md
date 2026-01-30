@@ -101,7 +101,7 @@ TelelecomPipeline/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/TelelecomPipeline.git
+git clone https://github.com/saber-elg/TelecomPipeline.git
 cd TelelecomPipeline
 ```
 
